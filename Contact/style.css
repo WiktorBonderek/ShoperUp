@@ -1,0 +1,40 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+.nav ul {
+    display: flex;
+    margin-left: 3em;
+    gap: 0.4em;
+}
+
+.nav ul a {
+    padding: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 1em 0em;
+}
+
+article {
+    margin: 0em 0.5em 1em;
+}
+
+footer {
+    font-size: 12px;
+    padding: 1em 0em;
+    margin-left: 0.5em;
+}

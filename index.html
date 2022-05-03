@@ -1,51 +1,77 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <title>My-Osom-Site</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <script src="https://kit.fontawesome.com/15e196efe9.js" crossorigin="anonymous"></script>
+ <title>FlexBox App</title>
 </head>
 <body>
-    <header>
-        <div class="nav">
-            <img src="logo.png" alt="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="About/index.html" target="_blank">About</a></li>
-                <li><a href="Contact/index.html" target="_blank">Contact</a></li>
-            </ul>
-        </div>
-        <hr>
-    </header>
-    <main>
-        
-            <div class="hero">
-               <h1>My Osom Site</h1>
-            </div>
-       
-        <div class="blog">
-            <article class="article">
-                <h2>my first article</h2>
-                <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nibh sit amet tortor rhoncus pharetra non fermentum quam. Nam dui libero, ultricies a mi vitae, convallis congue felis. Aliquam erat volutpat. In sit amet faucibus tellus, vel semper justo. Fusce ullamcorper pharetra iaculis. Donec venenatis porta dolor, id viverra.</p>
-                <p id="date">20.02.2020</p>
-            </article>
-            <article class="article">
-                <h2>my second article</h2>
-                <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nibh sit amet tortor rhoncus pharetra non fermentum quam. Nam dui libero, ultricies a mi vitae, convallis congue felis. Aliquam erat volutpat. In sit amet faucibus tellus, vel semper justo. Fusce ullamcorper pharetra iaculis. Donec venenatis porta dolor, id viverra.</p>
-                <p id="date">24.04.2020</p>
-            </article>
-        </div>
-        <hr>
-    </main>
-    <footer>  
-        <p>Coded by: Wiktor Bonderek</p>
-        <p>wiktor.bonderek@shoper.pl</p>
-    </footer>
+
+  <main>
+
+   <div class="container">
+    
+
+    <div class="header">
+     <div class="back-btn">
+       <span>
+        <i class="fa-solid fa-arrow-left"></i>
+        <a href="#">back</a>
+       </span>
+     </div>
+     <h1>FlexBox App</h1>
+     <div class="settings-btn">
+      <a href="#"><i class="fa-solid fa-gear fa-xs"></i></a>
+
+     </div>
+    </div>
+
+    <div class="text-content">
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices tempor ultricies. Donec at facilisis dolor. Nulla mollis, ex quis sollicitudin faucibus, lectus diam volutpat erat, a bibendum leo leo vitae odio. In tristique erat ut massa lacinia molestie. Phasellus ut ligula purus. Nam malesuada erat in sollicitudin tristique. Donec sollicitudin at eros ac cursus.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices tempor ultricies. Donec at facilisis dolor. Nulla mollis, ex quis sollicitudin faucibus, lectus diam volutpat erat, a bibendum leo leo vitae odio. In tristique erat ut massa lacinia molestie. Phasellus ut ligula purus. Nam malesuada erat in sollicitudin tristique. Donec sollicitudin at eros ac cursus.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices tempor ultricies. Donec at facilisis dolor. Nulla mollis, ex quis sollicitudin faucibus, lectus diam volutpat erat, a bibendum leo leo vitae odio. In tristique erat ut massa lacinia molestie. Phasellus ut ligula purus. Nam malesuada erat in sollicitudin tristique. Donec sollicitudin at eros ac cursus.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices tempor ultricies. Donec at facilisis dolor. Nulla mollis, ex quis sollicitudin faucibus, lectus diam volutpat erat, a bibendum leo leo vitae odio. In tristique erat ut massa lacinia molestie. Phasellus ut ligula purus. Nam malesuada erat in sollicitudin tristique. Donec sollicitudin at eros ac cursus.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices tempor ultricies. Donec at facilisis dolor. Nulla mollis, ex quis sollicitudin faucibus, lectus diam volutpat erat, a bibendum leo leo vitae odio. In tristique erat ut massa lacinia molestie. Phasellus ut ligula purus. Nam malesuada erat in sollicitudin tristique. Donec sollicitudin at eros ac cursus.</p>
+
+    </div>
+
+    <div class="nav">
+
+     <div class="home-btn">
+      <i class="fa-solid fa-house"></i>
+      <a href="#">home</a>
+     </div>
+     <div class="notification-btn">
+      <i class="fa-solid fa-bell"></i>
+      <a href="#">notification</a>
+     </div>
+     <div class="messages-btn">
+      <i class="fa-solid fa-message"></i>
+      <a href="#">messages</a>
+     </div>
+     <div class="user-btn">
+      <i class="fa-solid fa-user"></i>
+      <a href="#">user</a>
+     </div>
+
+    </div>
+
+
+   </div>
+
+  </main>
+
+  <footer>
+   <hr>
+   <p>Coded and styled by Wiktor Bonderek</p>
+  </footer>
+
 </body>
 </html>

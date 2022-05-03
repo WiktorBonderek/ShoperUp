@@ -1,103 +1,137 @@
 body {
-    font-family: 'Inter', sans-serif;
+ background-color: rgb(68, 157, 212);
+}
+
+.container {
+ border: 8px solid #212e42;
+ border-radius: 7px;
+ border-bottom: 60px solid #212e42;
+ width: 400px;
+ margin: 0 auto 1rem;
+}
+
+a {
+ text-decoration: none;
+}
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: khaki;
+ border-bottom: 4px solid lightgray;
+}
+
+.header h1 {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+
+.back-btn {
+ display: flex;
+ align-items: center;
+}
+
+.back-btn span {
+ background-color: rgb(0, 0, 0, 0.3);
+ padding: 5px;
+ color: white;
+ margin-left: 5px;
+}
+
+.back-btn span:hover {
+ padding: 7px;
+ font-size: 17px;
+}
+
+.back-btn a {
+ color: white;
+}
+
+.settings-btn a {
+ color: white;
+ padding: 5px 8px 5px 8px;
+ background-color: rgb(0, 0, 0, 0.3);
+ margin-right: 5px;
+}
+
+.settings-btn a:hover {
+ padding: 7px 12px 7px 12px;
+}
+
+.text-content {
+ background-color: white;
+ overflow-y: auto;
+ height: 400px;
+ }
+
+p {
+ margin-top: 0;
 }
 
 .nav {
-    display: flex;
-    align-items: center;
-    margin: 1em;
+ background-color: khaki;
+ display: flex;
+ height: 80px;
+ color: white;
 }
 
-.nav ul {
-    display: flex;
-    margin-left: 3em;
-    gap: 0.4em;
+.home-btn {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ align-items: center;
+ width: 100px;
+ justify-content: center;
 }
 
-.nav ul a {
-    padding: 5px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    text-decoration: none;
+.home-btn:hover {
+ border-bottom: 5px solid hsl(0, 0%, 60%, 0.5);
 }
 
-.hero {
-    display: flex;
-    background-image: url("hero-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vmax;
-    height: 65vmax;
-    margin-top: 2em;
-    justify-content: center;
-    
+.notification-btn {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ align-items: center;
+ width: 100px;
+ justify-content: center;
+ border-left: 1px solid rgb(0, 0, 0, 0.3);
+ border-right: 1px solid rgb(0, 0, 0, 0.3);
 }
 
-.hero h1 {
-    font-size: 7em;
-    font-weight: 700;
-    color: white;
-    height: auto;
-    width: 550px;
-    margin-top: 1em;
+.notification-btn:hover {
+ border-bottom: 5px solid hsl(0, 0%, 60%, 0.5);
 }
 
-.blog {
-    display: flex;
-    flex-flow: column;
-    margin-left: 13em;
-    margin-right: 13em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    gap: 4em;
+.messages-btn {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ align-items: center;
+ width: 100px;
+ justify-content: center;
+ border-right: 1px solid rgb(0, 0, 0, 0.3);
 }
 
-.article {
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    }
-
-.article h2 {
-    font-size: 20px;
-    font-weight: 700;
-    padding: 25px 7px;
+.messages-btn:hover {
+ border-bottom: 5px solid hsl(0, 0%, 60%, 0.5);
 }
 
-#text {
-    padding: 0px 7px 15px;
+.user-btn {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ align-items: center;
+ width: 100px;
+ justify-content: center;
 }
 
-#date {
-    padding: 0px 7px 10px;
+.user-btn:hover {
+ border-bottom: 5px solid hsl(0, 0%, 60%, 0.5);
 }
-
 
 footer {
-    font-size: 12px;
-    padding: 1em 0em;
-    margin-left: 0.5em;
-}
-
-@media only screen and (max-width: 800px) {
-    .blog {
-        margin-left: 2em;
-        margin-right: 2em;
-      }
-      
-      .hero {
-          width: 100vmin;
-          height: 50vmax;
-      }
-
-      .hero h1 {
-        font-size: 4em;
-      }
-
-      .nav ul {
-        margin-left: 1em;
-        gap: 0.4em;
-    }
+ font-size: 10px;
 }
